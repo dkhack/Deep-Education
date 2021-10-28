@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dkhack/Desktop/Deep-Education/kernel/csr.h
+stdint.h
+/home/dkhack/Desktop/Deep-Education/kernel/stdint.h
+
+/home/dkhack/Desktop/Deep-Education/kernel/kernel.cpp
+cassert
+-
+iostream
+-
+limits
+-
+kernel.h
+/home/dkhack/Desktop/Deep-Education/kernel/kernel.h
+
+/home/dkhack/Desktop/Deep-Education/kernel/kernel.h
+csr.h
+/home/dkhack/Desktop/Deep-Education/kernel/csr.h
+op.h
+/home/dkhack/Desktop/Deep-Education/kernel/op.h
+
+/home/dkhack/Desktop/Deep-Education/kernel/op.h
+string
+-
+cstring
+-
+

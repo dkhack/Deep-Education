@@ -1,0 +1,6 @@
+/home/dkhack/Desktop/Deep-Education/build/CMakeFiles/rebuild_cache.dir
+/home/dkhack/Desktop/Deep-Education/build/CMakeFiles/edit_cache.dir
+/home/dkhack/Desktop/Deep-Education/build/CMakeFiles/kernel64.dir
+/home/dkhack/Desktop/Deep-Education/build/CMakeFiles/kernel.dir
+/home/dkhack/Desktop/Deep-Education/build/pybind11/CMakeFiles/rebuild_cache.dir
+/home/dkhack/Desktop/Deep-Education/build/pybind11/CMakeFiles/edit_cache.dir

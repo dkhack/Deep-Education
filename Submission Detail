@@ -1,0 +1,4 @@
+Main branch contains single threaded version of GCN
+Parallel_branch branch contains multithreaded version of GCN
+
+I had trouble running github on lab computers, I was not able to push it so I copied everything on my computer and pushed it, please let me know if anything does not work

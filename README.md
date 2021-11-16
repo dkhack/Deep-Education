@@ -11,3 +11,6 @@ At the end of the assignment, you will learn following things:
 
 
 Watch out this space for more clarity on the current and future assignments.
+
+
+Submission detail contains information on how to run single threaded and multithreaded

@@ -4,6 +4,8 @@
 
 #include "kernel.h"
 
+#include <omp.h>
+
 using std::cout;
 using std::endl;
 
@@ -34,8 +36,9 @@ void _gspmm(csr_t* snaph, array2d_t<float> & input, array2d_t<float> & output,
     //cout<<"what is vertex_count: "<<vertex_count<<endl;
 
     
-    
-
+ #pragma omp parallel   
+{
+	#pragma omp for
     for(int i = 0; i < vertex_count; i++) {
         vid_t deg = snaph->get_degree(i);
         if (!reverse){  
@@ -51,7 +54,8 @@ void _gspmm(csr_t* snaph, array2d_t<float> & input, array2d_t<float> & output,
             output.row_add(input.data_ptr + i * col_count, i);
             output.row_normalize(i, deg + 1);
         }
-    }           
+    }  
+}         
 
 
 }
